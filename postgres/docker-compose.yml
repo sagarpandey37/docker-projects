@@ -5,8 +5,8 @@ services:
     image: postgres:9.5-alpine
     restart: always
     environment:
-      POSTGRES_PASSWORD: root
-      POSTGRES_USER: demo
-      POSTGRES_DB: l2
+      POSTGRES_PASSWORD: 
+      POSTGRES_USER: 
+      POSTGRES_DB:
     ports:
       - 5432:5432
